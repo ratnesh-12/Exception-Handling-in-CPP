@@ -22,7 +22,7 @@ In C++, Exception Handling is a mechanism to handle runtime errors, allowing pro
 
 -The catch block handles the exception and provides corrective measures.
 
-# 🔹 Key Features of Exception Handling:
+🔹 Key Features of Exception Handling:
 
 Provides a way to handle runtime errors without crashing the program.
 
@@ -32,7 +32,7 @@ Allows propagation of exceptions to higher-level functions if needed.
 
 Supports multiple types of exceptions for different error conditions.
 
-# 🔹 Syntax of Exception Handling in C++:
+ 🔹 Syntax of Exception Handling in C++:
 ```
 try {
    // Code that may cause exception
@@ -44,7 +44,7 @@ catch(exception_type e) {
      // Code to handle exception
 }
 ```
-# 🔹 Types of Exceptions:
+ 🔹 Types of Exceptions:
 
 Standard Exceptions – Predefined in C++ standard library (e.g., std::overflow_error, std::runtime_error).
 
@@ -52,7 +52,7 @@ User-defined Exceptions – Custom exceptions defined by the programmer using cl
 
 Multiple Exceptions – Catching different types of exceptions using multiple catch blocks.
 
-# 🔹 Advantages of Exception Handling:
+ 🔹 Advantages of Exception Handling:
 
 Improves program reliability and stability.
 
@@ -62,10 +62,10 @@ Makes debugging easier by providing detailed error information.
 
 Supports modular and maintainable code by separating normal and error-handling logic.
 
-Divide by 0 Error:
+# Divide by 0 Error:
 This program demonstrates how exceptions can be used to handle runtime errors. It checks for division by zero using a try block. If the divisor is zero, an exception is thrown and caught by a catch block, preventing the program from crashing and displaying an appropriate error message.
 
-# ALGORITHM:
+ ALGORITHM:
 
 1> Start
 
@@ -83,10 +83,10 @@ Otherwise, calculate ans = n1 / n2 and display the result.
 
 6> End
 
-Access Code:
+# Access Code:
 This program demonstrates how exceptions can be used to validate input. It checks whether the entered code matches the predefined private code. If the code is incorrect, an exception is thrown and caught by a catch block, displaying an error message. If the code is correct, access is granted.
 
-# ALGORITHM:
+ ALGORITHM:
 
 1> Start
 
