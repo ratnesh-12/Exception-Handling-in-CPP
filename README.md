@@ -33,8 +33,8 @@ Allows propagation of exceptions to higher-level functions if needed.
 Supports multiple types of exceptions for different error conditions.
 
 # 🔹 Syntax of Exception Handling in C++:
-
-```try {
+```
+try {
    // Code that may cause exception
    if(condition) {
        throw exception_type;
@@ -42,7 +42,8 @@ Supports multiple types of exceptions for different error conditions.
 } 
 catch(exception_type e) {
      // Code to handle exception
-} ```
+}
+```
 # 🔹 Types of Exceptions:
 
 Standard Exceptions – Predefined in C++ standard library (e.g., std::overflow_error, std::runtime_error).
